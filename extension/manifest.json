@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Chess extension",
+  "version": "1.0",
+  "description": "Disables the option to play fast time formats on chess.com",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.chess.com/*"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
