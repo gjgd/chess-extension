@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Disables the option to play fast time formats on chess.com",
   "icons": {
-    "48": "icons/border-48.png"
+    "32": "icons/chess-32.png"
   },
   "content_scripts": [
     {

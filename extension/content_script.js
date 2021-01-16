@@ -1,6 +1,6 @@
 (function() {
-  // https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension
   /**
+   * https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension
    * Check and set a global guard variable.
    * If this content script is injected into the same page again,
    * it will do nothing next time.
@@ -9,6 +9,7 @@
     return;
   }
   window.hasRun = true;
+
   const forbiddenTimeControls = [
     '1 min',
     '1 | 1',
