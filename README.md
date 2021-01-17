@@ -4,6 +4,18 @@ Improving a chess requires to play long time controls (at least 10 minutes). How
 
 This extension disables the option to play fast time formats on chess.com
 
+# Examples
+
+Go to https://www.chess.com/play/online
+
+If you select 10 minutes or above, you can press Play
+
+![10-minute-allowed](./images/allowed.png)
+
+Otherwise the button will be disabled
+
+![1-minute-not-allowed](./images/not-allowed.png)
+
 # Install
 
 ## Debug mode
