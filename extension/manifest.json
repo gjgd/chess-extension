@@ -3,8 +3,17 @@
   "name": "Chess extension",
   "version": "1.0",
   "description": "Disables the option to play fast time formats on chess.com",
+  "homepage_url": "https://github.com/gjgd/chess-extension",
   "icons": {
     "32": "icons/chess-32.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icons/chess-32.png",
+    "default_title": "Choose which time format to disable",
+    "default_popup": "popup/index.html"
   },
   "content_scripts": [
     {
