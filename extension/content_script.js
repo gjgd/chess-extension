@@ -1,4 +1,4 @@
-(function() {
+(function () {
   console.info('chess extension content script is called');
   /**
    * https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension
@@ -10,7 +10,7 @@
     console.info('stopping here because script was already called');
     return;
   }
-  console.info('chess extension is running')
+  console.info('chess extension is running');
   window.hasRun = true;
 
   const forbiddenTimeControls = [
@@ -22,8 +22,10 @@
     '5 min',
   ];
 
-  function disableIfForbidden () {
-    const timeSelectorButtons = document.getElementsByClassName('time-selector-button')
+  function disableIfForbidden() {
+    const timeSelectorButtons = document.getElementsByClassName(
+      'time-selector-button',
+    );
     const largeButtons = document.getElementsByClassName(
       'ui_v5-button-component ui_v5-button-primary ui_v5-button-large ui_v5-button-full',
     );
