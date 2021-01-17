@@ -1,8 +1,8 @@
 # Chess extension
 
-Improving a chess requires to play long time controls (at least 10 minutes). However shorter time controls like Bullet and Blitz are more fun to play
+Improving at chess requires to play long time controls (at least 10 minutes per player). However shorter time controls like Bullet and Blitz are more fun to play.
 
-This extension disables the option to play fast time formats on chess.com
+This extension disables the option to play fast time formats on chess.com, so that I can focus on improving.
 
 # Examples
 
